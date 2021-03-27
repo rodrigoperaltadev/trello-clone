@@ -11,7 +11,7 @@ interface ButtonProps {
 const Button: FC<ButtonProps> = props => {
   return (
     <div className="button" onClick={props.onClick}>
-      <span>{props.title}</span>
+      <div>{props.title}</div>
     </div>
   )
 }
