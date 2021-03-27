@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  background-color: #026aa7;
+  height: 40px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: beige;
+}
