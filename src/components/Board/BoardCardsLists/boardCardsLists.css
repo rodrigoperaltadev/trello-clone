@@ -1,0 +1,8 @@
+.board-cards-lists-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  overflow-x: auto;
+}
