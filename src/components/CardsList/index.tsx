@@ -57,6 +57,8 @@ const CardListFooter: FC = () => {
         fontSize={'13px'}
         transparent
         dark
+        block
+        justify="flex-start"
       />
       <Button onClick={() => console.log('hace algo')} title={'...'} transparent dark />
     </div>
