@@ -1,4 +1,5 @@
 import React, { FC } from 'react'
+import { BsPlus, BsThreeDots } from 'react-icons/bs'
 import { Button } from '../common'
 
 import './cardsList.css'
@@ -59,8 +60,12 @@ const CardListFooter: FC = () => {
         dark
         block
         justify="flex-start"
-      />
-      <Button onClick={() => console.log('hace algo')} title={'...'} transparent dark />
+      >
+        <BsPlus />
+      </Button>
+      <Button onClick={() => console.log('hace algo')} transparent dark>
+        <BsThreeDots />
+      </Button>
     </div>
   )
 }

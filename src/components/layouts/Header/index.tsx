@@ -10,7 +10,7 @@ const Header: FC = () => {
   return (
     <header className="header-container">
       <NavItemsGroup>
-        <Button onClick={() => console.log('yo')}>
+        <Button onClick={() => alert('Nana te amo')}>
           <BsFillGrid3X3GapFill color="white" />
         </Button>
         <Button onClick={() => console.log('nana te amo')}>

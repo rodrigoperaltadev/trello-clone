@@ -11,16 +11,18 @@ type ButtonProps = {
   justify?: string
   block?: boolean
   reverseDirection?: boolean
+  height?: string
   onClick: () => void
 }
 
 const Button: FC<ButtonProps> = props => {
-  const { children, title, dark, transparent, fontSize, justify, block, reverseDirection, onClick } = props
+  const { children, title, dark, transparent, fontSize, height, justify, block, reverseDirection, onClick } = props
 
   const styles = {
     container: {
       justifyContent: justify || 'center',
       width: block ? '100%' : '',
+      maxHeight: height || '100%',
     },
     titleButton: {
       color: '#293a5b',
